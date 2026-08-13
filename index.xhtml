@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW">
+<head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>範本頁面</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+
+    <!-- 左側主內容區 -->
+    <div class="main-area">
+
+      <!-- 標題區（可選） -->
+      <div class="container" style="margin-bottom: 1.5rem; text-align: left;">國王說不定喜歡細菌的
+        <div id="rbw">照明週邊說明</div>
+        <p class="description">點擊下方項目即可看內容。</p>
+
+        <!-- 模式切換 -->
+        <div class="control-group">
+          <div class="toggle-item">
+            <input type="checkbox" id="invmode" />
+            <label for="invmode"></label>
+          </div>
+          <div class="toggle-item">
+            <input type="checkbox" id="contrast" />
+            <label for="contrast"></label>
+          </div>
+        </div>
+      </div>
+
+      <!-- 觸發列表 -->
+      <div class="trigger-list">
+        <button type="button" class="trigger-item"
+                id="open-detail-a"
+                title="關於這個頁面、使用方式、內建功能與注意事項">
+          關於這個頁面、使用方式、內建功能與注意事項
+        </button>
+
+        <button type="button" class="trigger-item"
+                id="open-detail-b"
+                title="手電筒入門指南-選購1(品牌參考)">
+          手電筒入門指南-選購1(品牌參考)
+        </button>
+
+        <button type="button" class="trigger-item"
+                id="open-detail-c"
+                title="手電筒入門指南-選購2(基礎知識)">
+          手電筒入門指南-選購2(基礎知識)
+        </button>
+
+        <button type="button" class="trigger-item"
+                id="open-detail-d"
+                title="注意事項">
+          注意事項
+        </button>
+      </div>
+
+    </div>
+
+    <!-- 右側面板（非彈框） -->
+    <div id="right-panel" class="right-panel">
+      <div class="panel-header">
+        <h2 id="panel-title"></h2>
+        <button type="button" id="panel-close" class="panel-close" title="關閉">×</button>
+      </div>
+      <div id="panel-body" class="panel-body">
+
+        <!-- ===== 詳細內容全部塞在這裡 ===== -->
+
+        <div id="detail-a" class="detail-content">
+          <p>這是一個輕量 XHTML 範本。</p>
+          <p>右側面板使用 CSS transform 滑入，不是傳統的 modal 彈框。</p>
+          <p>所有資料都寫在同一份檔案裡，方便維護。</p>
+          <p><strong>如何新增一個項目：</strong></p>
+          <ol>
+            <li>在左側加一個 <code>button.trigger-item</code></li>
+            <li>設定 <code>id="open-你的ID"</code>（例如 open-detail-a）</li>
+            <li>設定 <code>title="面板標題"</code></li>
+            <li>在右側 <code>#panel-body</code> 裡新增對應的 <code>div id="你的ID" class="detail-content"</code></li>
+          </ol>
+          <p>完成後重新整理即可使用。</p>
+          <ul>
+            <li>彩虹文字動畫（#rbw）</li>
+            <li>反色模式（Inverted）</li>
+            <li>高對比模式（Contrast）</li>
+            <li>右側滑入面板</li>
+            <li>ESC 鍵或點擊外部可關閉</li>
+            <li>狀態會記住（localStorage）</li>
+          </ul>
+          <p>本檔案以 <strong>WTFPL</strong> 釋出，可自由使用、修改。</p>
+          <p>建議保持結構輕量，避免加入過重的框架。</p>
+        </div>
+
+
+        <div id="detail-b" class="detail-content">
+        <p>這裡只挑代表性的來講，不然講不完</p>
+        <p><strong>專業／戰術級品牌（歐美）</strong></p>
+        <p>這類品牌多被軍警、保全、專業人員採用，強調極致可靠度與長期使用壽命，價格通常較高。</p>
+        <ul>
+            <li>SureFire(神火) :美國品牌，戰術手電筒的標竿之一。以高強度、精準光型（高candela遠射）、軍規級耐用度聞名。適合真正需要「關鍵時刻不能掛」的用途。</li>
+            <li>Streamlight :同樣是美國專業品牌，在執法單位普及率很高。優點是可靠度接近SureFire，但價格親民許多，且常有雙燃料（可充鋰電＋CR123A）設計，終身保固也是一大優勢。光型偏向實用平衡，適合執勤、巡邏、居家防衛。</li>
+            <li>Maglite :經典美式手電筒代表。鋁合金筒身厚實、耐摔，傳統形象很強。現代LED版本已改善亮度與效率，適合放車上、家中當「備用工具燈」，但論輕便、高亮度、充電便利性，已不如新興品牌。</li>
+            <li>Armytek :手電筒領域中以「極致耐用、專業導向」聞名，嚴格來說是加拿大、歐洲與俄羅斯混血技術產品，耐用/可靠性非常好的品牌之一</li>
+          </ul>
+        <p><strong>高性能市場主流(中國)</strong></p>
+        <p>這些品牌在戶外、EDC、戰術領域有穩定口碑，做工、散熱、防水、保固都較完整。</p>
+          <ul>
+            <li>Fenix(菲尼克斯) :綜合評價極高。恆定亮度電路、堅固鋁合金、USB-C 充電、介面直覺。適合日常攜帶與戶外。價格中高，但耐用度與售後服務優秀。</li>
+            <li>Nitecore(奈特科爾) :創新花樣功能多（OLED 顯示、MCT色溫與CRI切換、多光束切換、戰術模式等）。亮度與拋射（throw）表現出色，但部分款式介面較複雜，需習慣。品控、耐操上輸Fenix、Olight這類大廠。</li>
+            <li>Olight(傲雷) :外觀時尚、磁吸充電極為方便（懶人最愛）、體積小巧。Baton 與 ArkPro 系列是 EDC 熱門。有些款式僅支援MCC(他們家的磁吸充電)要注意方便性考量。</li>
+            <li>Acebeam :高亮度與拋射能力突出。性能導向，適合想要「亮又遠」的人。</li>
+          </ul>
+        <p><strong>玩家級(有保/中國)</strong></p>
+        <p>這些在經銷商有保固，價格較低一些的強勢品牌手電筒。</p>
+          <ul>
+            <li>Wuben(務本) :台灣市場能見度高，保固相對完整（部分款式 5 年），TIR 光學透鏡表現不錯。C3 等入門款價格親民，適合想買「有品牌感」又不想花太多錢的人。</li>
+            <li>Klarus（凱瑞茲）：雙尾按等戰術開關設計有特色，適合有自衛／戰術需求的人。</li>
+            <li>Skilhunt :小眾高品質，輕量與高效驅動電路出色</li>
+            <li>Cyansky :專注於戶外、戰術、狩獵與 EDC 照明產品，較冷門。</li>
+            <li>其他-Convoy :主要為店家保固，超高性價比是DIY玩家最愛，價格極低但需自己搭配電池與充電器。</li>
+          </ul>
+
+        <p><strong>玩家級(海外/中國寄送)</strong></p>
+        <p>這些是屬於自行到海外平台(如蝦皮海外、AliExpress等購買)。</p>
+          <ul>
+            <li>Sofirn(索菲恩) :網路直銷為主，規格強、價格低，常附電池與充電線。介面多半簡單或使用開源 Andúril 韌體（可高度自訂）。適合想快速體驗「真的很亮」的人。</li>
+            <li>Wurkkos：與 Sofirn 關係密切（製造端重疊），產品線豐富，磁吸尾蓋、USB-C、高 CRI（顯色指數）版本多。</li>
+            <li>其他-asafee/yemao等 :小品牌，基本功能優於普通賣場手電筒，價格比五金行/一般大賣場筒更實惠又好，但品控、可靠度稍好於一般白牌貼牌水準(就優於貼牌，但沒優到品牌筒的程度)。</li>
+          </ul>
+        </div>
+        <div id="detail-c" class="detail-content">
+
+        </div>
+
+        <div id="detail-d" class="detail-content">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="site-footer">
+  <p>
+    本頁面與檔案（style.css、main.js 等）均為AI再生成製作，以
+    <a href="http://www.wtfpl.net/" title="Do What The Fuck You Want To Public License">WTFPL</a>
+    條款釋出 — Do What The Fuck You Want To Public License。
+  </p>
+  <p>可自由使用、修改、再散佈，亦可作為 Footer 使用，內容注意以自行撰寫為優。</p>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
