@@ -248,7 +248,7 @@ font-weight: 800;
         border-left: none;
     }
     .container {
-        max-width: 75%;
+        width: 75%;
     }
     .main-area {
         padding: 1rem;
