@@ -1,5 +1,5 @@
         DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-                    Version 2, August 2026 
+                    Version 3, August 2026 
 
  Copyright (C) 2026 rskingiffu 
 
@@ -11,3 +11,4 @@
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
+  1. This work is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the work or the use or other dealings in the work.
