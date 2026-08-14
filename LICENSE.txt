@@ -11,11 +11,3 @@
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
-
-                    版本 2，2026 年 8 月
-Copyright (C) 2026 rskingiffu 
-任何人皆可複製並散佈本授權文件的原文或修改版本，只要更改名稱，修改是被允許的。
-
-                  複製、散佈與修改之條款與條件
-
-0.你就去做你他媽想做的事就好了。
