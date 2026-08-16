@@ -1,0 +1,12 @@
+          <svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="200" cy="170" r="130" fill="#D3D1C7" opacity="0.5"/>
+              <circle cx="200" cy="170" r="108" fill="#F2A623" opacity="0.7"/>
+              <circle cx="200" cy="170" r="75" fill="#E85D24" opacity="0.9"/>
+              <text x="200" y="170" font-size="14" text-anchor="middle" fill="#4A1B0C">熱點</text>
+              <rect x="420" y="72" width="16" height="16" fill="#E85D24" opacity="0.9"/>
+              <text x="444" y="85" font-size="14" fill="#E85D24">熱點（大）</text>
+              <rect x="420" y="122" width="16" height="16" fill="#F2A623" opacity="0.7"/>
+              <text x="444" y="135" font-size="14" fill="#F2A623">過渡區（占比最大）</text>
+              <rect x="420" y="172" width="16" height="16" fill="#bab7a9" opacity="0.5"/>
+              <text x="444" y="185" font-size="14" fill="#bab7a9">溢光（窄）</text>
+          </svg>

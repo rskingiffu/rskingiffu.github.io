@@ -1,0 +1,9 @@
+        <svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+            <rect x="80" y="40" width="520" height="320" rx="20" fill="none" stroke="#888780" stroke-width="0.5"/>
+            <text x="100" y="68" font-size="14" stroke="#888780">溢光（Spill）</text>
+            <rect x="160" y="100" width="360" height="200" rx="14" fill="none" stroke="#BA7517" stroke-width="0.5"/>
+            <text x="180" y="128" font-size="14" stroke="#BA7517">過渡區（Corona）</text>
+            <rect x="250" y="155" width="180" height="90" rx="10" fill="none" stroke="#A32D2D" stroke-width="1"/>
+            <text x="340" y="192" font-size="14" text-anchor="middle" stroke="#A32D2D">熱點</text>
+            <text x="340" y="212" font-size="12" text-anchor="middle" stroke="#A32D2D">（Hotspot）</text>
+        </svg>

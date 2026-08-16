@@ -1,0 +1,15 @@
+        <svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="180" r="130" fill="#F2A623" opacity="0.08"/>
+            <circle cx="200" cy="180" r="110" fill="none" stroke="#EF8B2C" stroke-width="15" opacity="0.6"/>
+            <circle cx="200" cy="180" r="100" fill="#000000" stroke="#9C9B95" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+            <circle cx="200" cy="180" r="25" fill="#E85D24" opacity="0.5"/>
+            <circle cx="200" cy="180" r="16" fill="#D14520" opacity="0.95"/>
+            <rect x="420" y="62" width="16" height="16" fill="#F2A623" opacity="0.3"/>
+            <text x="444" y="75" font-size="14" fill="#F2A623">極暗溢光</text>
+            <rect x="420" y="102" width="16" height="16" fill="#EF8B2C" opacity="0.6"/>
+            <text x="444" y="115" font-size="14" fill="#EF8B2C">外圈亮環（甜甜圈）</text>
+            <rect x="420" y="142" width="16" height="16" fill="#292824" stroke="#9C9B95" stroke-width="1" stroke-dasharray="3 3"/>
+            <text x="444" y="155" font-size="14" fill="#595958">中間暗區（無光）</text>
+            <rect x="420" y="182" width="16" height="16" fill="#D14520" opacity="0.95"/>
+            <text x="444" y="195" font-size="14" fill="#D14520">中心熱點與過度區（小而亮）</text>
+        </svg>
