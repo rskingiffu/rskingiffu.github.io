@@ -2,11 +2,11 @@
  *   1. 預設全域樣式（淺色模式）
  *   ========================================================================== */
 :root {
-    --bg-color: #f7f9fa;
+    --bg-color: #dbd6ce;
     --text-color: #2c3e50;
-    --card-bg: #ffffff;
+    --card-bg: #ede1d1;
     --card-border: #e2e8f0;
-    --toggle-bg: #edf2f7;
+    --toggle-bg: #faf3e6;
     --panel-width: 720px;
     --accent: #3b82f6;
 }
