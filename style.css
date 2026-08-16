@@ -190,10 +190,8 @@ html.contrast {
     transition: background-color 0.35s ease, border-color 0.35s ease;
 }
 
-#rbw {
-font-size: 1.8rem;
-margin-bottom: 1.2rem;
-font-weight: 800;
+.rbw {
+/*可以自行加元素*/
 }
 
 .description {

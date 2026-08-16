@@ -2,11 +2,16 @@
         "use strict";
 
         // ===== 1. 彩虹文字特效 =====
-        const rainbowElement = document.getElementById("rbw");
-        if (rainbowElement) {
+        // 1. 改用 querySelectorAll 選取所有類別為 rbw 的元素
+        const rainbowElements = document.querySelectorAll(".rbw");
+        // 2. 檢查是否至少有找到一個元素
+        if (rainbowElements.length > 0) {
             let hue = 0;
             const animateRainbow = () => {
-                rainbowElement.style.color = `hsl(${hue}, 80%, 60%)`;
+                // 3. 使用 forEach 遍歷所有選到的元素，同步更新顏色
+                rainbowElements.forEach((element) => {
+                    element.style.color = `hsl(${hue}, 80%, 60%)`;
+                });
                 hue = (hue + 5) % 360;
                 requestAnimationFrame(animateRainbow);
             };
