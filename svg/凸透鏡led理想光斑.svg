@@ -11,5 +11,5 @@
             <rect x="420" y="142" width="16" height="16" fill="#292824" stroke="#9C9B95" stroke-width="1" stroke-dasharray="3 3"/>
             <text x="444" y="155" font-size="14" fill="#595958">中間暗區（無光）</text>
             <rect x="420" y="182" width="16" height="16" fill="#D14520" opacity="0.95"/>
-            <text x="444" y="195" font-size="14" fill="#D14520">中心熱點與過度區（小而亮）</text>
+            <text x="444" y="195" font-size="14" fill="#D14520">中心熱點與過渡區（小而亮）</text>
         </svg>

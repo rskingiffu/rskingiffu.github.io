@@ -1,0 +1,12 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="200" cy="180" r="150" fill="#F2A623" opacity="0.1"/>
+    <circle cx="200" cy="180" r="120" fill="#F2A623" opacity="0.18"/>
+    <circle cx="200" cy="180" r="108" fill="none" stroke="#E0A030" stroke-width="16" opacity="0.6"/>
+    <circle cx="200" cy="180" r="98" fill="#F6F9FF" opacity="0.95" stroke="#DCE6F5" stroke-width="1"/>
+    <rect x="420" y="102" width="16" height="16" fill="#F6F9FF" stroke="#B9C4D6" stroke-width="1"/>
+    <text x="444" y="115" font-size="14" fill="#B9C4D6">熱點／核心（均勻明亮）</text>
+    <rect x="420" y="142" width="16" height="16" fill="#E0A030" opacity="0.6"/>
+    <text x="444" y="155" font-size="14" fill="#F2A623">過渡區（琥珀色邊環）</text>
+    <rect x="420" y="182" width="16" height="16" fill="#F2A623" opacity="0.15"/>
+    <text x="444" y="195" font-size="14" fill="#F2A623">溢光（向外擴散淡出）</text>
+</svg>

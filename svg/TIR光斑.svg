@@ -9,5 +9,5 @@
                 <rect x="420" y="122" width="16" height="16" fill="#EF8B2C" opacity="0.2"/>
                 <text x="444" y="135" font-size="14" fill="#EF8B2C">過渡區（多層平滑）</text>
                 <rect x="420" y="172" width="16" height="16" fill="#F2A623" opacity="0.08"/>
-                <text x="444" y="185" font-size="14" fill="#F2A623">溢光（幾乎沒有）</text>
+                <text x="444" y="185" font-size="14" fill="#F2A623">溢光（不明顯）</text>
             </svg>
