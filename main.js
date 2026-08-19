@@ -138,5 +138,19 @@
                     if (e.target.closest(".trigger-item")) return;
                     closePanel();
                 });
+        // ===== 5. 監聽關閉checkbox =====
+            // 取得 Checkbox 的 DOM 元素
+                const invmodeCheckbox = document.getElementById('invmode');
+                const contrastCheckbox = document.getElementById('contrast');
+                // 僅針對高對比限制禁按主題鍵
+                function checkContrastState() {
+                    if (contrastCheckbox.checked) {
+                        invmodeCheckbox.disabled = true;  // 如果高對比是勾選的，就禁用亮暗主題
+                    } else {
+                        invmodeCheckbox.disabled = false; // 否則就啟用亮暗主題
+                    }
+                }
+                contrastCheckbox.addEventListener('change', checkContrastState);
+                document.addEventListener('DOMContentLoaded', checkContrastState);
 
 })();

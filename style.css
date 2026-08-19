@@ -272,6 +272,13 @@ html.contrast {
     color: #ffffff;                  /* 文字轉白色 */
 }
 
+/* 當內部的 checkbox 被禁用時，改變 label 的外觀 */
+.toggle-item input[type="checkbox"]:disabled + label {
+    opacity: 0.4;                /* 變透明，呈現無法點擊的灰暗感 */
+    cursor: not-allowed;         /* 滑鼠游標變成禁止點擊的符號 */
+    pointer-events: none;        /* 徹底關閉該 label 的點擊事件 */
+    filter: grayscale(1);        /* （選填）強制變灰色 */
+}
 /* ==========================================================================
  *   7. 小螢幕適配
  *   ========================================================================== */
