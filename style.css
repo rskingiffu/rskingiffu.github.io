@@ -252,3 +252,69 @@ html.contrast {
         padding: 1rem;
     }
 }
+
+
+a {
+    color: #5dcfd9; /* 將顏色改為你想要的色碼或英文名稱 */
+    text-decoration: none;
+}
+a:hover {
+    color: #eb0000;
+    text-decoration: underline; /* 移入時顯示底線 */
+}
+a:active {
+    color: #5c0000;
+}
+
+
+
+/* 1. 讓外層容器水平並排，且只佔用必要的寬度 */
+.control-group {
+    display: flex !important; /* 使用 flex 布局 */
+    flex-direction: row;      /* 確保方向是水平排列 */
+    gap: 12px;                /* 兩個方塊之間的左右間距 */
+    align-items: center;      /* 垂直置中 */
+    width: max-content;       /* 只佔用必要的總寬度 */
+}
+
+/* 2. 讓每個項目保持行內區塊特性 */
+.toggle-item {
+    display: inline-block;
+    background-color: transparent !important; /* 移除外層背景色 */
+}
+
+/* 3. 徹底隱藏原生的 checkbox */
+.toggle-item input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* 4. 將 label 變成真正的按鈕本體，並設定絕對置中 */
+.toggle-item label {
+    display: inline-flex !important;
+    justify-content: center; /* 水平絕對置中 */
+    align-items: center;     /* 垂直絕對置中 */
+    text-align: center !important; /* 確保文字本身置中 */
+    margin-left: 0 !important;     /* 關鍵：消除原本舊樣式往右推的 10px */
+
+    background-color: var(--toggle-bg);
+    color: var(--text-color);
+    padding: 12px 24px;      /* 你可以透過調整這裡的左右數值（如 24px）來改變按鈕寬度 */
+    border-radius: 12px;     /* 圓角大小 */
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+/* 滑鼠懸停效果 */
+.toggle-item label:hover {
+    filter: brightness(0.95); /* 輕微變暗做為回饋 */
+}
+
+/* 5. 當選中（Checked）時的樣式切換（若有需要可以啟用或修改顏色） */
+.toggle-item input[type="checkbox"]:checked + label {
+    background-color: var(--accent); /* 選中時套用主題色 */
+    color: #ffffff;                  /* 文字轉白色 */
+}

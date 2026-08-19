@@ -59,14 +59,14 @@
         setupToggle({
             inputId: "contrast",
             storageKey: "contrast",
-            labels: ["開啟->高對比背景", "關閉->預設背景"],
+            labels: ["❀標準色", "✿高對比"],
             className: "contrast"
         });
 
         setupToggle({
             inputId: "invmode",
             storageKey: "inverted",
-            labels: ["開啟->灰階背景", "關閉->白色背景"],
+            labels: ["☀亮主題", "★暗主題"],
             className: "inverted"
         });
 
