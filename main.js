@@ -131,13 +131,13 @@
                     }
                 });
 
-                // 點擊面板外關閉
-                document.addEventListener("click", (e) => {
+                // 點擊面板外關閉 --可以自行打開
+                /*document.addEventListener("click", (e) => {
                     if (!rightPanel || !rightPanel.classList.contains("open")) return;
                     if (rightPanel.contains(e.target)) return;
                     if (e.target.closest(".trigger-item")) return;
                     closePanel();
-                });
+                });*/
         // ===== 5. 監聽關閉checkbox =====
             // 取得 Checkbox 的 DOM 元素
                 const invmodeCheckbox = document.getElementById('invmode');

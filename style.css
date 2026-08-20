@@ -67,6 +67,51 @@ html.contrast {
     margin-right: 0; /* 改為不推擠，改用 overlay 感覺較輕 */
 }
 
+/* 預設右側圖區：桌面在右、手機在下 */
+.aside-preview {
+    flex: 1 1 360px;
+    min-width: 0;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 1.5rem 1.5rem 2rem 0.75rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-caption {
+    margin: 0 0 0.8rem;
+    font-size: 0.9rem;
+    opacity: 0.75;
+    text-align: center;
+    width: 100%;
+}
+
+.fig {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 0 1rem;
+}
+
+.fig img,
+.fig object,
+.panel-body img,
+.panel-body object {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.layout.panel-open .aside-preview {
+    visibility: hidden;
+    pointer-events: none;
+}
+
 /* ==========================================================================
  *   4. 右側顯示面板（非彈框）
  *   ========================================================================== */
@@ -280,19 +325,65 @@ html.contrast {
     filter: grayscale(1);        /* （選填）強制變灰色 */
 }
 /* ==========================================================================
- *   7. 小螢幕適配
+ *   7. 頁尾
  *   ========================================================================== */
-@media (max-width: 720px) {
+.site-footer {
+    width: 100%;
+    padding: 1.1rem 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.75;
+    border-top: 1px solid var(--card-border);
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    box-sizing: border-box;
+    transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease;
+}
+
+.site-footer p {
+    margin: 0.3rem 0;
+}
+
+.site-footer img {
+    vertical-align: middle;
+    margin-left: 0.4rem;
+}
+
+/* ==========================================================================
+ *   8. 小螢幕適配：圖改到列表下方
+ *   ========================================================================== */
+@media (max-width: 880px) {
+    .layout {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .main-area {
+        max-width: 100%;
+        flex: none;
+        padding: 1rem;
+    }
+
+    .aside-preview {
+        flex: none;
+        width: 100%;
+        padding: 0 1rem 1.5rem;
+    }
+
     .right-panel {
         width: 100%;
         max-width: 100%;
         border-left: none;
     }
+
     .container {
-        width: 75%;
+        width: 500px;
+        max-width: 80%;
+        box-sizing: border-box;
     }
-    .main-area {
-        padding: 1rem;
+
+    .panel-body object {
+        height: 200px;
     }
 }
 
