@@ -59,14 +59,11 @@
            L 168 252
            Q 132 180 168 108 Z" fill="url(#headGlow)" stroke="#B45312" stroke-width="2"></path>
 
-  
-  <ellipse cx="214" cy="180" rx="38" ry="62" fill="none" stroke="#FFF1C2" stroke-width="3" opacity="0.55"></ellipse>
-  <ellipse cx="238" cy="180" rx="28" ry="48" fill="none" stroke="#FFE08A" stroke-width="2" opacity="0.7"></ellipse>
-  <ellipse cx="256" cy="180" rx="16" ry="30" fill="#FFF6D8" opacity="0.35"></ellipse>
-
-
   <rect x="248" y="168" width="24" height="24" rx="3" fill="#D14520"></rect>
   <rect x="253" y="173" width="14" height="14" rx="2" fill="#F6C15A"></rect>
+  <ellipse cx="214" cy="180" rx="38" ry="62" fill="none" stroke="#FFF1C2" stroke-width="3" opacity="0.55"></ellipse>
+  <ellipse cx="238" cy="180" rx="28" ry="48" fill="none" stroke="#FFE08A" stroke-width="2" opacity="0.7"></ellipse>
+  <ellipse cx="258" cy="180" rx="18" ry="30" fill="#FFF6D8" opacity="0.35"></ellipse>
 
   
   <rect x="118" y="96" width="54" height="168" rx="10" fill="#E89A2B" stroke="#9A4A12" stroke-width="2"></rect>
