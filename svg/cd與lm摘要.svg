@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="lm 與 cd 摘要：流明是總量，坎德拉是方向強度">
+  <defs>
+    <radialGradient id="omni" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff7cc"/>
+      <stop offset="0.4" stop-color="#f5d56a" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#f5d56a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffe9a0" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe9a0" stop-opacity="0.12"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.28" stop-color="#fff4c2"/>
+      <stop offset="1" stop-color="#c9b48a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <text x="340" y="32" text-anchor="middle" fill="#7d7d7d" font-size="18" font-family="sans-serif" font-weight="700">lm / cd 摘要</text>
+
+  <!-- tiny diagrams -->
+  <circle cx="150" cy="92" r="28" fill="url(#omni)"/>
+  <circle cx="150" cy="92" r="5" fill="#fff8d6"/>
+  <g stroke="#fde68a" stroke-width="1.6" stroke-linecap="round">
+    <line x1="150" y1="60" x2="150" y2="52"/>
+    <line x1="150" y1="124" x2="150" y2="132"/>
+    <line x1="118" y1="92" x2="110" y2="92"/>
+    <line x1="182" y1="92" x2="190" y2="92"/>
+  </g>
+  <text x="150" y="152" text-anchor="middle" fill="#2563eb" font-size="12" font-family="sans-serif">lm　四面加總</text>
+
+  <rect x="470" y="80" width="16" height="10" rx="2" fill="#64748b"/>
+  <rect x="486" y="76" width="12" height="18" rx="2" fill="#94a3b8"/>
+  <ellipse cx="500" cy="85" rx="3" ry="8" fill="#fff4c2"/>
+  <polygon points="502,78 548,64 548,106 502,92" fill="url(#cone)"/>
+  <ellipse cx="575" cy="85" rx="28" ry="24" fill="url(#spot)"/>
+  <ellipse cx="575" cy="85" rx="6" ry="5" fill="#fff"/>
+  <text x="530" y="152" text-anchor="middle" fill="#b45309" font-size="12" font-family="sans-serif">cd　熱點方向</text>
+
+  <!-- table -->
+  <rect x="28" y="172" width="624" height="204" rx="10" fill="none" stroke="#94a3b8"/>
+
+  <text x="92" y="196" fill="#7d7d7d" font-size="12" font-family="sans-serif">項目</text>
+  <text x="248" y="196" fill="#2563eb" font-size="12" font-family="sans-serif">lm 流明</text>
+  <text x="468" y="196" fill="#b45309" font-size="12" font-family="sans-serif">cd 坎德拉</text>
+  <line x1="28" y1="208" x2="652" y2="208" stroke="#94a3b8"/>
+  <line x1="176" y1="172" x2="176" y2="376" stroke="#94a3b8"/>
+  <line x1="396" y1="172" x2="396" y2="376" stroke="#94a3b8"/>
+
+  <text x="44" y="236" fill="#7d7d7d" font-size="13" font-family="sans-serif">定義</text>
+  <text x="188" y="236" fill="#7d7d7d" font-size="13" font-family="sans-serif">總光通量（不看方向）</text>
+  <text x="408" y="236" fill="#7d7d7d" font-size="13" font-family="sans-serif">特定方向的發光強度</text>
+
+  <line x1="28" y1="250" x2="652" y2="250" stroke="#cbd5e1"/>
+  <text x="44" y="278" fill="#7d7d7d" font-size="13" font-family="sans-serif">白話</text>
+  <text x="188" y="278" fill="#7d7d7d" font-size="13" font-family="sans-serif">這燈一共產生多少光</text>
+  <text x="408" y="278" fill="#7d7d7d" font-size="13" font-family="sans-serif">熱點有多刺、多集中</text>
+
+  <line x1="28" y1="292" x2="652" y2="292" stroke="#cbd5e1"/>
+  <text x="44" y="320" fill="#7d7d7d" font-size="13" font-family="sans-serif">用途</text>
+  <text x="188" y="320" fill="#7d7d7d" font-size="13" font-family="sans-serif">近距／總亮度參考</text>
+  <text x="408" y="320" fill="#7d7d7d" font-size="13" font-family="sans-serif">遠射核心數字</text>
+
+  <line x1="28" y1="334" x2="652" y2="334" stroke="#cbd5e1"/>
+  <text x="44" y="362" fill="#b91c1c" font-size="13" font-family="sans-serif">限制</text>
+  <text x="188" y="362" fill="#b91c1c" font-size="13" font-family="sans-serif">高 lm ≠ 照得遠</text>
+  <text x="408" y="362" fill="#b91c1c" font-size="13" font-family="sans-serif">ANSI 射程 ≠ 人眼距離</text>
+</svg>
