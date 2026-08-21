@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="綠光摘要：人眼最敏感，琥珀綠較適日常">
+  <circle cx="131" cy="84" r="28" fill="#14532d"/>
+  <circle cx="131" cy="84" r="14" fill="#22c55e"/>
+  <circle cx="131" cy="84" r="5" fill="#bbf7d0"/>
+  <text x="131" y="132" text-anchor="middle" fill="#15803d" font-size="12" font-family="sans-serif">純綠　窄譜、色純</text>
+
+  <circle cx="549" cy="84" r="28" fill="#3f6212"/>
+  <circle cx="549" cy="84" r="16" fill="#84cc16"/>
+  <circle cx="549" cy="84" r="6" fill="#a7f3d0"/>
+  <text x="549" y="132" text-anchor="middle" fill="#b45309" font-size="12" font-family="sans-serif">琥珀綠　藍光＋螢光粉</text>
+
+  <text x="340" y="32" text-anchor="middle" fill="#7d7d7d" font-size="18" font-family="sans-serif" font-weight="700">綠光摘要</text>
+  <text x="340" y="108" text-anchor="middle" fill="#7d7d7d" font-size="13" font-family="sans-serif">人眼最敏感，主觀上常比紅、藍「亮很多」</text>
+
+  <rect x="28" y="156" width="624" height="220" rx="10" fill="none" stroke="#94a3b8"/>
+  <text x="78" y="180" fill="#7d7d7d" font-size="12" font-family="sans-serif">項目</text>
+  <text x="248" y="180" fill="#15803d" font-size="12" font-family="sans-serif">純綠光</text>
+  <text x="468" y="180" fill="#b45309" font-size="12" font-family="sans-serif">琥珀綠</text>
+  <line x1="28" y1="192" x2="652" y2="192" stroke="#94a3b8"/>
+  <line x1="168" y1="156" x2="168" y2="376" stroke="#94a3b8"/>
+  <line x1="396" y1="156" x2="396" y2="376" stroke="#94a3b8"/>
+
+  <text x="40" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">本質</text>
+  <text x="180" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">光譜窄、顏色純</text>
+  <text x="408" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">藍光＋特殊螢光粉</text>
+
+  <line x1="28" y1="236" x2="652" y2="236" stroke="#cbd5e1"/>
+  <text x="40" y="264" fill="#7d7d7d" font-size="13" font-family="sans-serif">問題</text>
+  <text x="180" y="264" fill="#b91c1c" font-size="13" font-family="sans-serif">高電流／高溫效率差，易偏藍</text>
+  <text x="408" y="264" fill="#15803d" font-size="13" font-family="sans-serif">顏色與光效通常較穩</text>
+
+  <line x1="28" y1="280" x2="652" y2="280" stroke="#cbd5e1"/>
+  <text x="40" y="308" fill="#7d7d7d" font-size="13" font-family="sans-serif">用途</text>
+  <text x="180" y="308" fill="#7d7d7d" font-size="13" font-family="sans-serif">信號、狩獵為主</text>
+  <text x="408" y="308" fill="#7d7d7d" font-size="13" font-family="sans-serif">日常較適合，還帶一點色彩</text>
+
+  <line x1="28" y1="324" x2="652" y2="324" stroke="#cbd5e1"/>
+  <text x="40" y="352" fill="#7d7d7d" font-size="13" font-family="sans-serif">狩獵</text>
+  <text x="180" y="352" fill="#7d7d7d" font-size="13" font-family="sans-serif">草叢對比較自然；動物反應不一</text>
+  <text x="408" y="352" fill="#7d7d7d" font-size="13" font-family="sans-serif">靈敏度高，又比純綠好用</text>
+</svg>
