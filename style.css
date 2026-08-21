@@ -378,7 +378,7 @@ html.contrast {
 
     .container {
         width: 500px;
-        max-width: 80%;
+        max-width: 100%;
         box-sizing: border-box;
     }
 
