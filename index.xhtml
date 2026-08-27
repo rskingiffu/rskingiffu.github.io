@@ -427,11 +427,12 @@ B 燈：3000 lm、60,000 cd
         </div>
 <!--8進階 COB DIP SMD CSP-->
         <div id="detail-h" class="detail-content">
-        <p>沒研究很深，但勉強可以講些</p>
+        <p style="color: #db5000;">沒研究很深，但勉強可以講些，但SMD、CSP部份細節資訊很多，所以可能有不少沒講好的地方請見諒<em>(尤其CSP部份已經超出AI理解範圍，我這裡其實花不少時間在理解跟審查)。</em></p>
         <p><strong>SMD:</strong></p>
         <ul>
         <li>這是目前的主流手電筒所採用的燈珠，很多經驗包括不限於3535等尺寸、去果凍、SST40與XML2比較等等，都是針對SMD封裝技術下的LED來寫的。</li>
         <li>這類封裝也應用在主流燈泡、側燈上。</li>
+        <li style="color: #db5000;">SMD有些很像CSP的，其實是倒裝技術，像NCSP這類燈珠特性非常靠近CSP，但這也是屬於SMD，特性上其實能參考底下的CSP說法。</li>
         <li>有一種比較特殊的，就是賣場便宜容易燒壞的強光LED，就是圓形透明塑膠SMD的LED(搜High Power LED容易看到)，這類時常被接3顆AAA-4.5v電池且無散熱，所以很容易導致嚴重發熱燒毀，這High Power LED與主流SMD LED差別在擁有獨立的凸出接腳與底部大面積金屬導熱散熱墊，美國大兵仿MX991的彎頭手電筒LED也都用那種(說明而已，我不推薦購買)。<br />
         <strong class="rbw">這整個頁面大部分所講解的，都是以主流SMD為核心出發，基本上不參考其他類型燈珠的光學表現。</strong></li>
         </ul>
@@ -455,10 +456,11 @@ B 燈：3000 lm、60,000 cd
         </object>
         <p><strong>CSP:</strong></p>
         <ul>
-        <li>這其實是屬於SMD的其中一種，但與手電筒主流採用的地方不同在於封裝方式，CSP的封裝非常接近發光面積大小，目前確認Wurkkos TS10就是採用CSP2323封裝。</li>
+        <li>與手電筒主流採用SMD不同，CSP的封裝非常接近發光面積大小。</li>
         <li>以封裝來說，接近主流手電筒的無果凍特性，不過CSP本身打線在底部不在正面，且本身的立體分層讓DBR反射率非常高，輝度的能力理論會強於一般的無果凍燈珠。</li>
-        <li>這類設計也讓打線熱組極低+導熱強，更耐大電流抗飽和能力，也就是極限超頻可以超的很高。<br />
-        <strong style="color: #db5000;"><em>但因為如此，直驅電路中需要特別限制CSP的表現，否則會太衝燒毀，這是Wurkkos TS10因為直驅所以有不少的燒毀案例後，新版限制了50% FET調降輸出表現。</em></strong></li>
+        <li>這類設計也讓打線熱組極低+導熱強，改成焊點散熱方式，更耐大電流抗飽和能力，也就是極限超頻可以超的很高。<br />
+        <strong style="color: #db5000;"><em>但因為如此，透過焊點散熱除了電路版本身散熱能力、工藝難度高，直驅電路中需要特別限制CSP的表現，否則會太衝燒毀。</em></strong></li>
+        <li style="color: #db5000;"><strong>另外，目前即便是Wurkkos TS10這種採用晶能光電的CSP，並非屬於純CSP架構。CSP工藝下各廠商實做時都可能會有一些SMD妥協影子存在，這個CSP2323也無例外(但這是不是NCSP，我還不知道)。</strong></li>
         </ul>
         <object data="./svg/CSP_LED封裝結構剖面.svg" type="image/svg+xml" width="680" height="400">
         </object>
