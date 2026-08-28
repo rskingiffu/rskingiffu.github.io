@@ -454,14 +454,15 @@ B 燈：3000 lm、60,000 cd
         </ul>
         <object data="./svg/COB_LED封裝結構剖面.svg" type="image/svg+xml" width="680" height="400">
         </object>
-        <p><strong>CSP:</strong></p>
+        <p><strong>CSP(倒裝SMD可參考此項):</strong></p>
         <ul>
         <li>與手電筒主流採用SMD不同，CSP的封裝非常接近發光面積大小。</li>
-        <li>以封裝來說，接近主流手電筒的無果凍特性，不過CSP本身打線在底部不在正面，且本身的立體分層讓DBR反射率非常高，輝度的能力理論會強於一般的無果凍燈珠。</li>
-        <li>這類設計也讓打線熱組極低+導熱強，改成焊點散熱方式，更耐大電流抗飽和能力，也就是極限超頻可以超的很高。<br />
+        <li>以封裝來說，接近主流手電筒的無果凍特性，不過CSP本身打線在底部不在正面，且本身的立體分層讓DBR反射率非常高，輝度的能力「理論」會強於一般的無果凍燈珠，但CSP需考量側向出光的部份，這會讓實際輝度有所打折。</li>
+        <li>這類設計也讓打線熱組極低+導熱強，改成焊點散熱方式，更耐大電流抗飽和能力，並且高色溫高顯色要求下能優於正裝SMD。<br />
         <strong style="color: #db5000;"><em>但因為如此，透過焊點散熱除了電路版本身散熱能力、工藝難度高，直驅電路中需要特別限制CSP的表現，否則會太衝燒毀。</em></strong></li>
-        <li style="color: #db5000;"><strong>另外，目前即便是Wurkkos TS10這種採用晶能光電的CSP，並非屬於純CSP架構。CSP工藝下各廠商實做時都可能會有一些SMD妥協影子存在，這個CSP2323也無例外(但這是不是NCSP，我還不知道)。</strong></li>
+        <li style="color: #db5000;"><strong>另外，目前即便是Wurkkos TS10這種採用晶能光電的CSP，並非屬於純CSP架構。CSP工藝下各廠商實做時都可能會有一些SMD妥協影子存在，這個CSP2323也無例外(是否NCSP我還不知道)。</strong></li>
         </ul>
+        <p style="color: #d94848;"><strong>所以，CSP的部份我會寫倒裝SMD可以參考的原因，就是我參考數次AI與網站得到的資料是...目前CSP的改進定位都頗有爭議，才特別說倒裝SMD可以參考，<em style="text-decoration: underline;">但 倒裝SMD 不是 CSP </em>，這需要注意。</strong></p>
         <object data="./svg/CSP_LED封裝結構剖面.svg" type="image/svg+xml" width="680" height="400">
         </object>
         <p><em>其他非LED但也是主流之一的，也就是LEP，這類其實是透過藍光LD投射到螢光體(凸透鏡)，螢光粉吸收激發轉換出白光後透過凸透鏡激發出去，這並非討論LED種類範圍內。</em></p>
