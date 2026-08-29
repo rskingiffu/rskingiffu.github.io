@@ -9,6 +9,7 @@
     --toggle-bg: #faf3e6;
     --panel-width: 720px;
     --accent: #3b82f6;
+    --svg-label: var(--text-color);
 }
 
 body {
@@ -20,6 +21,55 @@ body {
     min-height: 100vh;
     transition: background-color 0.35s ease, color 0.35s ease;
     line-height: 1.5;
+}
+
+/* Tailwind preflight 會清掉清單／段落間距，這裡補回可讀預設 */
+p {
+    margin: 0.55em 0;
+}
+
+h1, h2, h3, h4 {
+    font-size: revert;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0.8em 0 0.4em;
+}
+
+ul, ol {
+    margin: 0.5em 0;
+    padding-left: 1.6em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li {
+    margin: 0.25em 0;
+}
+
+strong, b {
+    font-weight: 700;
+}
+
+em, i {
+    font-style: italic;
+}
+
+code, pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    background: color-mix(in srgb, var(--text-color) 8%, transparent);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
 }
 
 /* ==========================================================================
@@ -98,13 +148,26 @@ html.contrast {
 
 .fig img,
 .fig object,
+.fig svg,
 .panel-body img,
-.panel-body object {
+.panel-body object,
+.panel-body svg,
+.aside-preview img,
+.aside-preview object,
+.aside-preview svg {
     display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 12px;
+}
+
+/* 內嵌後的 SVG：#7d7d7d（currentColor）跟隨頁面字色 */
+.themed-svg,
+.fig svg,
+.panel-body svg,
+.aside-preview svg {
+    color: var(--svg-label);
 }
 
 .layout.panel-open .aside-preview {
@@ -367,6 +430,7 @@ html.contrast {
     .aside-preview {
         flex: none;
         width: 100%;
+        min-height: 0;
         padding: 0 1rem 1.5rem;
     }
 
@@ -382,8 +446,9 @@ html.contrast {
         box-sizing: border-box;
     }
 
-    .panel-body object {
-        height: 200px;
+    .panel-body object,
+    .panel-body svg {
+        height: auto;
     }
 }
 

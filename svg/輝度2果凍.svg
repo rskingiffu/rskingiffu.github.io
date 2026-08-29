@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="有無果凍對輝度的影響摘要">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="有無果凍對輝度的影響摘要" color="#7d7d7d">
   <defs>
     <radialGradient id="dome" cx="50%" cy="20%" r="80%">
       <stop offset="0" stop-color="#fde68a" stop-opacity="0.9"/>
@@ -10,7 +10,7 @@
     </linearGradient>
   </defs>
 
-  <text x="340" y="32" text-anchor="middle" fill="#7d7d7d" font-size="18" font-family="sans-serif" font-weight="700">有無果凍 × 輝度</text>
+  <text x="340" y="32" text-anchor="middle" fill="currentColor" font-size="18" font-family="sans-serif" font-weight="700">有無果凍 × 輝度</text>
 
   <!-- with dome -->
   <rect x="88" y="78" width="86" height="16" rx="2" fill="#64748b"/>
@@ -27,29 +27,29 @@
 
   <rect x="28" y="156" width="624" height="220" rx="10" fill="none" stroke="#94a3b8"/>
 
-  <text x="78" y="180" fill="#7d7d7d" font-size="12" font-family="sans-serif">項目</text>
+  <text x="78" y="180" fill="currentColor" font-size="12" font-family="sans-serif">項目</text>
   <text x="248" y="180" fill="#2563eb" font-size="12" font-family="sans-serif">有果凍</text>
   <text x="468" y="180" fill="#b45309" font-size="12" font-family="sans-serif">無果凍</text>
   <line x1="28" y1="192" x2="652" y2="192" stroke="#94a3b8"/>
   <line x1="168" y1="156" x2="168" y2="376" stroke="#94a3b8"/>
   <line x1="396" y1="156" x2="396" y2="376" stroke="#94a3b8"/>
 
-  <text x="40" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">目的</text>
-  <text x="180" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">讓光子更容易逃出</text>
-  <text x="408" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">壓小面積、表面更亮</text>
+  <text x="40" y="220" fill="currentColor" font-size="13" font-family="sans-serif">目的</text>
+  <text x="180" y="220" fill="currentColor" font-size="13" font-family="sans-serif">讓光子更容易逃出</text>
+  <text x="408" y="220" fill="currentColor" font-size="13" font-family="sans-serif">壓小面積、表面更亮</text>
 
   <line x1="28" y1="236" x2="652" y2="236" stroke="#cbd5e1"/>
-  <text x="40" y="264" fill="#7d7d7d" font-size="13" font-family="sans-serif">lm</text>
+  <text x="40" y="264" fill="currentColor" font-size="13" font-family="sans-serif">lm</text>
   <text x="180" y="264" fill="#15803d" font-size="13" font-family="sans-serif">通常 +10～20%</text>
   <text x="408" y="264" fill="#b91c1c" font-size="13" font-family="sans-serif">通常 −10～20%</text>
 
   <line x1="28" y1="280" x2="652" y2="280" stroke="#cbd5e1"/>
-  <text x="40" y="308" fill="#7d7d7d" font-size="13" font-family="sans-serif">輝度</text>
+  <text x="40" y="308" fill="currentColor" font-size="13" font-family="sans-serif">輝度</text>
   <text x="180" y="308" fill="#b91c1c" font-size="13" font-family="sans-serif">下降（光被攤開）</text>
   <text x="408" y="308" fill="#15803d" font-size="13" font-family="sans-serif">上升（TIR 回收）</text>
 
   <line x1="28" y1="324" x2="652" y2="324" stroke="#cbd5e1"/>
-  <text x="40" y="352" fill="#7d7d7d" font-size="13" font-family="sans-serif">取向</text>
-  <text x="180" y="352" fill="#7d7d7d" font-size="13" font-family="sans-serif">lm／光效優先</text>
-  <text x="408" y="352" fill="#7d7d7d" font-size="13" font-family="sans-serif">遠射優先，但較熱</text>
+  <text x="40" y="352" fill="currentColor" font-size="13" font-family="sans-serif">取向</text>
+  <text x="180" y="352" fill="currentColor" font-size="13" font-family="sans-serif">lm／光效優先</text>
+  <text x="408" y="352" fill="currentColor" font-size="13" font-family="sans-serif">遠射優先，但較熱</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="lm 與 cd 摘要：流明是總量，坎德拉是方向強度">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="lm 與 cd 摘要：流明是總量，坎德拉是方向強度" color="#7d7d7d">
   <defs>
     <radialGradient id="omni" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#fff7cc"/>
@@ -16,7 +16,7 @@
     </radialGradient>
   </defs>
 
-  <text x="340" y="32" text-anchor="middle" fill="#7d7d7d" font-size="18" font-family="sans-serif" font-weight="700">lm / cd 摘要</text>
+  <text x="340" y="32" text-anchor="middle" fill="currentColor" font-size="18" font-family="sans-serif" font-weight="700">lm / cd 摘要</text>
 
   <!-- tiny diagrams -->
   <circle cx="150" cy="92" r="28" fill="url(#omni)"/>
@@ -40,26 +40,26 @@
   <!-- table -->
   <rect x="28" y="172" width="624" height="204" rx="10" fill="none" stroke="#94a3b8"/>
 
-  <text x="92" y="196" fill="#7d7d7d" font-size="12" font-family="sans-serif">項目</text>
+  <text x="92" y="196" fill="currentColor" font-size="12" font-family="sans-serif">項目</text>
   <text x="248" y="196" fill="#2563eb" font-size="12" font-family="sans-serif">lm 流明</text>
   <text x="468" y="196" fill="#b45309" font-size="12" font-family="sans-serif">cd 坎德拉</text>
   <line x1="28" y1="208" x2="652" y2="208" stroke="#94a3b8"/>
   <line x1="176" y1="172" x2="176" y2="376" stroke="#94a3b8"/>
   <line x1="396" y1="172" x2="396" y2="376" stroke="#94a3b8"/>
 
-  <text x="44" y="236" fill="#7d7d7d" font-size="13" font-family="sans-serif">定義</text>
-  <text x="188" y="236" fill="#7d7d7d" font-size="13" font-family="sans-serif">總光通量（不看方向）</text>
-  <text x="408" y="236" fill="#7d7d7d" font-size="13" font-family="sans-serif">特定方向的發光強度</text>
+  <text x="44" y="236" fill="currentColor" font-size="13" font-family="sans-serif">定義</text>
+  <text x="188" y="236" fill="currentColor" font-size="13" font-family="sans-serif">總光通量（不看方向）</text>
+  <text x="408" y="236" fill="currentColor" font-size="13" font-family="sans-serif">特定方向的發光強度</text>
 
   <line x1="28" y1="250" x2="652" y2="250" stroke="#cbd5e1"/>
-  <text x="44" y="278" fill="#7d7d7d" font-size="13" font-family="sans-serif">白話</text>
-  <text x="188" y="278" fill="#7d7d7d" font-size="13" font-family="sans-serif">這燈一共產生多少光</text>
-  <text x="408" y="278" fill="#7d7d7d" font-size="13" font-family="sans-serif">熱點有多刺、多集中</text>
+  <text x="44" y="278" fill="currentColor" font-size="13" font-family="sans-serif">白話</text>
+  <text x="188" y="278" fill="currentColor" font-size="13" font-family="sans-serif">這燈一共產生多少光</text>
+  <text x="408" y="278" fill="currentColor" font-size="13" font-family="sans-serif">熱點有多刺、多集中</text>
 
   <line x1="28" y1="292" x2="652" y2="292" stroke="#cbd5e1"/>
-  <text x="44" y="320" fill="#7d7d7d" font-size="13" font-family="sans-serif">用途</text>
-  <text x="188" y="320" fill="#7d7d7d" font-size="13" font-family="sans-serif">近距／總亮度參考</text>
-  <text x="408" y="320" fill="#7d7d7d" font-size="13" font-family="sans-serif">遠射核心數字</text>
+  <text x="44" y="320" fill="currentColor" font-size="13" font-family="sans-serif">用途</text>
+  <text x="188" y="320" fill="currentColor" font-size="13" font-family="sans-serif">近距／總亮度參考</text>
+  <text x="408" y="320" fill="currentColor" font-size="13" font-family="sans-serif">遠射核心數字</text>
 
   <line x1="28" y1="334" x2="652" y2="334" stroke="#cbd5e1"/>
   <text x="44" y="362" fill="#b91c1c" font-size="13" font-family="sans-serif">限制</text>

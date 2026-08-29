@@ -1,4 +1,4 @@
-        <svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" color="#7d7d7d">
             <rect x="60" y="40" width="520" height="240" fill="none" stroke="#87867F" stroke-width="0.5"/>
             <rect x="60" y="40" width="520" height="40" fill="none" stroke="#87867F" stroke-width="0.5"/>
             <line x1="160" y1="40" x2="160" y2="280" stroke="#B4B2A9" stroke-width="0.5"/>
@@ -8,22 +8,22 @@
             <line x1="60" y1="160" x2="580" y2="160" stroke="#B4B2A9" stroke-width="0.5"/>
             <line x1="60" y1="200" x2="580" y2="200" stroke="#B4B2A9" stroke-width="0.5"/>
             <line x1="60" y1="240" x2="580" y2="240" stroke="#B4B2A9" stroke-width="0.5"/>
-            <text x="110" y="64" font-size="14" text-anchor="middle" fill="#7d7d7d">cd/lm範圍</text>
-            <text x="275" y="64" font-size="14" text-anchor="middle" fill="#7d7d7d">特性說明</text>
-            <text x="485" y="64" font-size="14" text-anchor="middle" fill="#7d7d7d">常見用途</text>
-            <text x="110" y="104" font-size="14" text-anchor="middle" fill="#7d7d7d">5 ~ 15</text>
-            <text x="170" y="104" font-size="14" fill="#7d7d7d">非常泛光</text>
-            <text x="400" y="104" font-size="14" fill="#7d7d7d">露營、近距離工作</text>
-            <text x="110" y="144" font-size="14" text-anchor="middle" fill="#7d7d7d">15 ~ 35</text>
-            <text x="170" y="144" font-size="14" fill="#7d7d7d">均衡，有熱點也有溢光</text>
-            <text x="400" y="144" font-size="14" fill="#7d7d7d">一般EDC、徒步</text>
-            <text x="110" y="184" font-size="14" text-anchor="middle" fill="#7d7d7d">35 ~ 70</text>
-            <text x="170" y="184" font-size="14" fill="#7d7d7d">明顯偏遠射</text>
-            <text x="400" y="184" font-size="14" fill="#7d7d7d">中距離搜尋、夜釣</text>
-            <text x="110" y="224" font-size="14" text-anchor="middle" fill="#7d7d7d">70 ~ 150+</text>
-            <text x="170" y="224" font-size="14" fill="#7d7d7d">強遠射專用</text>
-            <text x="400" y="224" font-size="14" fill="#7d7d7d">遠射筒</text>
-            <text x="110" y="264" font-size="14" text-anchor="middle" fill="#7d7d7d">200以上</text>
-            <text x="170" y="264" font-size="14" fill="#7d7d7d">極致遠射</text>
-            <text x="400" y="264" font-size="14" fill="#7d7d7d">長距離搜救、觀測</text>
+            <text x="110" y="64" font-size="14" text-anchor="middle" fill="currentColor">cd/lm範圍</text>
+            <text x="275" y="64" font-size="14" text-anchor="middle" fill="currentColor">特性說明</text>
+            <text x="485" y="64" font-size="14" text-anchor="middle" fill="currentColor">常見用途</text>
+            <text x="110" y="104" font-size="14" text-anchor="middle" fill="currentColor">5 ~ 15</text>
+            <text x="170" y="104" font-size="14" fill="currentColor">非常泛光</text>
+            <text x="400" y="104" font-size="14" fill="currentColor">露營、近距離工作</text>
+            <text x="110" y="144" font-size="14" text-anchor="middle" fill="currentColor">15 ~ 35</text>
+            <text x="170" y="144" font-size="14" fill="currentColor">均衡，有熱點也有溢光</text>
+            <text x="400" y="144" font-size="14" fill="currentColor">一般EDC、徒步</text>
+            <text x="110" y="184" font-size="14" text-anchor="middle" fill="currentColor">35 ~ 70</text>
+            <text x="170" y="184" font-size="14" fill="currentColor">明顯偏遠射</text>
+            <text x="400" y="184" font-size="14" fill="currentColor">中距離搜尋、夜釣</text>
+            <text x="110" y="224" font-size="14" text-anchor="middle" fill="currentColor">70 ~ 150+</text>
+            <text x="170" y="224" font-size="14" fill="currentColor">強遠射專用</text>
+            <text x="400" y="224" font-size="14" fill="currentColor">遠射筒</text>
+            <text x="110" y="264" font-size="14" text-anchor="middle" fill="currentColor">200以上</text>
+            <text x="170" y="264" font-size="14" fill="currentColor">極致遠射</text>
+            <text x="400" y="264" font-size="14" fill="currentColor">長距離搜救、觀測</text>
         </svg>

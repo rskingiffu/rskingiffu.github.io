@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="紅光摘要：長波長、暗適應破壞小">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-label="紅光摘要：長波長、暗適應破壞小" color="#7d7d7d">
   <circle cx="131" cy="84" r="28" fill="#7f1d1d"/>
   <circle cx="131" cy="84" r="14" fill="#ef4444"/>
   <circle cx="131" cy="84" r="5" fill="#fecaca"/>
@@ -9,27 +9,27 @@
   <circle cx="549" cy="84" r="5" fill="#94a3b8"/>
   <text x="549" y="132" text-anchor="middle" fill="#2563eb" font-size="12" font-family="sans-serif">視桿刺激弱</text>
 
-  <text x="340" y="32" text-anchor="middle" fill="#7d7d7d" font-size="18" font-family="sans-serif" font-weight="700">紅光摘要</text>
-  <text x="340" y="108" text-anchor="middle" fill="#7d7d7d" font-size="13" font-family="sans-serif">夜視、夜行、不想引蟲時較常用</text>
+  <text x="340" y="32" text-anchor="middle" fill="currentColor" font-size="18" font-family="sans-serif" font-weight="700">紅光摘要</text>
+  <text x="340" y="108" text-anchor="middle" fill="currentColor" font-size="13" font-family="sans-serif">夜視、夜行、不想引蟲時較常用</text>
 
   <rect x="28" y="156" width="624" height="220" rx="10" fill="none" stroke="#94a3b8"/>
-  <text x="92" y="180" fill="#7d7d7d" font-size="12" font-family="sans-serif">項目</text>
-  <text x="360" y="180" fill="#7d7d7d" font-size="12" font-family="sans-serif">重點</text>
+  <text x="92" y="180" fill="currentColor" font-size="12" font-family="sans-serif">項目</text>
+  <text x="360" y="180" fill="currentColor" font-size="12" font-family="sans-serif">重點</text>
   <line x1="28" y1="192" x2="652" y2="192" stroke="#94a3b8"/>
   <line x1="176" y1="156" x2="176" y2="376" stroke="#94a3b8"/>
 
-  <text x="44" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">暗適應</text>
-  <text x="188" y="220" fill="#7d7d7d" font-size="13" font-family="sans-serif">破壞最小（天文、夜行、接近）</text>
+  <text x="44" y="220" fill="currentColor" font-size="13" font-family="sans-serif">暗適應</text>
+  <text x="188" y="220" fill="currentColor" font-size="13" font-family="sans-serif">破壞最小（天文、夜行、接近）</text>
 
   <line x1="28" y1="236" x2="652" y2="236" stroke="#cbd5e1"/>
-  <text x="44" y="264" fill="#7d7d7d" font-size="13" font-family="sans-serif">昆蟲</text>
-  <text x="188" y="264" fill="#7d7d7d" font-size="13" font-family="sans-serif">多數較不趨光</text>
+  <text x="44" y="264" fill="currentColor" font-size="13" font-family="sans-serif">昆蟲</text>
+  <text x="188" y="264" fill="currentColor" font-size="13" font-family="sans-serif">多數較不趨光</text>
 
   <line x1="28" y1="280" x2="652" y2="280" stroke="#cbd5e1"/>
-  <text x="44" y="308" fill="#7d7d7d" font-size="13" font-family="sans-serif">霧氣</text>
-  <text x="188" y="308" fill="#7d7d7d" font-size="13" font-family="sans-serif">穿透中等，但總亮度感偏低</text>
+  <text x="44" y="308" fill="currentColor" font-size="13" font-family="sans-serif">霧氣</text>
+  <text x="188" y="308" fill="currentColor" font-size="13" font-family="sans-serif">穿透中等，但總亮度感偏低</text>
 
   <line x1="28" y1="324" x2="652" y2="324" stroke="#cbd5e1"/>
-  <text x="44" y="352" fill="#7d7d7d" font-size="13" font-family="sans-serif">觀感</text>
+  <text x="44" y="352" fill="currentColor" font-size="13" font-family="sans-serif">觀感</text>
   <text x="188" y="352" fill="#b91c1c" font-size="13" font-family="sans-serif">看起來不夠亮＝人眼不敏感，不是燈壞了</text>
 </svg>
