@@ -9,7 +9,7 @@
   <path d="M536,80 L562,80 L549,96 Z" fill="#f59e0b"/>
   <text x="549" y="132" text-anchor="middle" fill="#b45309" font-size="12" font-family="sans-serif">常需橘／黃濾鏡</text>
 
-  <text x="340" y="32" text-anchor="middle" fill="currentColor" font-size="18" font-family="sans-serif" font-weight="700">藍光摘要</text>
+  <text x="340" y="32" text-anchor="middle" fill="#2563eb" font-size="18" font-family="sans-serif" font-weight="700">藍光摘要</text>
   <text x="340" y="108" text-anchor="middle" fill="currentColor" font-size="13" font-family="sans-serif">白光 LED 離不開藍光，但「純藍光」本身用途很窄</text>
 
   <rect x="28" y="156" width="624" height="220" rx="10" fill="none" stroke="#94a3b8"/>

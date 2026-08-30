@@ -9,7 +9,7 @@
   <circle cx="549" cy="84" r="6" fill="#a7f3d0"/>
   <text x="549" y="132" text-anchor="middle" fill="#b45309" font-size="12" font-family="sans-serif">琥珀綠　藍光＋螢光粉</text>
 
-  <text x="340" y="32" text-anchor="middle" fill="currentColor" font-size="18" font-family="sans-serif" font-weight="700">綠光摘要</text>
+  <text x="340" y="32" text-anchor="middle" fill="#15803d" font-size="18" font-family="sans-serif" font-weight="700">綠光摘要</text>
   <text x="340" y="108" text-anchor="middle" fill="currentColor" font-size="13" font-family="sans-serif">人眼最敏感，主觀上常比紅、藍「亮很多」</text>
 
   <rect x="28" y="156" width="624" height="220" rx="10" fill="none" stroke="#94a3b8"/>
