@@ -208,7 +208,7 @@
         if (layout) layout.classList.remove("panel-open");
     };
 
-    const setupToggle = ({ inputId, storageKey, labels, className }) => {
+    const setupToggle = ({ inputId, storageKey, labels, className, onChange }) => {
         const checkbox = document.getElementById(inputId);
         const label = document.querySelector(`label[for="${inputId}"]`);
         if (!checkbox || !label) return;
@@ -232,6 +232,9 @@
                 document.documentElement.classList.remove(className);
             }
             window.setTimeout(syncSvgTheme, 0);
+            if (typeof onChange === "function") {
+                onChange(checkbox.checked);
+            }
         };
 
         updateUI();
@@ -288,6 +291,20 @@
             storageKey: "inverted",
             labels: ["☀亮主題", "★暗主題"],
             className: "inverted"
+        });
+
+        setupToggle({
+            inputId: "bodymode",
+            storageKey: "body-mode",
+            labels: ["🔦燈頭／光學", "🔩筒身"],
+            className: "body-mode",
+            onChange: () => {
+                closePanel();
+                window.setTimeout(() => {
+                    inlineSvgObjects(document.querySelector(".aside-preview"));
+                    syncSvgTheme();
+                }, 0);
+            }
         });
 
         if (!delegated) {

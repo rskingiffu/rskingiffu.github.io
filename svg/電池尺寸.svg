@@ -1,0 +1,16 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" color="#7d7d7d">
+  <rect x="40" y="36" width="600" height="248" fill="none" stroke="#87867F" stroke-width="0.5"/>
+  <text x="340" y="28" font-size="14" text-anchor="middle" fill="currentColor">常見鋰電尺寸（示意，非比例尺）</text>
+
+  <rect x="90" y="70" width="70" height="28" rx="8" fill="#94A3B8" stroke="#64748B"/>
+  <text x="210" y="90" font-size="14" fill="currentColor">14500　AA 長度、3.7V、容量小</text>
+
+  <rect x="90" y="118" width="92" height="32" rx="8" fill="#60A5FA" stroke="#2563EB"/>
+  <text x="210" y="140" font-size="14" fill="currentColor">18650　主流 EDC、容量／放電均衡</text>
+
+  <rect x="90" y="170" width="118" height="36" rx="8" fill="#F2A623" stroke="#B45309"/>
+  <text x="230" y="194" font-size="14" fill="currentColor">21700　更大電流與續航，筒身會更粗</text>
+
+  <rect x="90" y="226" width="48" height="24" rx="8" fill="#C4B89A" stroke="#8A6A30"/>
+  <text x="210" y="244" font-size="14" fill="currentColor">16340／CR123A　短筒、續航短</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" color="#7d7d7d">
+  <rect x="36" y="40" width="180" height="88" rx="10" fill="none" stroke="#87867F"/>
+  <text x="126" y="78" font-size="15" text-anchor="middle" fill="#2563EB">線性／LDO</text>
+  <text x="126" y="102" font-size="13" text-anchor="middle" fill="currentColor">穩、但筒身會熱</text>
+
+  <rect x="250" y="40" width="180" height="88" rx="10" fill="none" stroke="#87867F"/>
+  <text x="340" y="78" font-size="15" text-anchor="middle" fill="#15803D">Buck／Boost</text>
+  <text x="340" y="102" font-size="13" text-anchor="middle" fill="currentColor">效率高、檔位準</text>
+
+  <rect x="464" y="40" width="180" height="88" rx="10" fill="none" stroke="#87867F"/>
+  <text x="554" y="78" font-size="15" text-anchor="middle" fill="#D14520">FET 直驅</text>
+  <text x="554" y="102" font-size="13" text-anchor="middle" fill="currentColor">爆亮、吃電池與熱</text>
+
+  <text x="340" y="176" font-size="14" text-anchor="middle" fill="currentColor">高檔位亮不久是溫控，不是壞掉</text>
+  <text x="340" y="208" font-size="14" text-anchor="middle" fill="#B45309">沒溫控的直驅：亮度隨電壓掉，筒也更容易燙</text>
+  <text x="340" y="246" font-size="13" text-anchor="middle" fill="currentColor">Andúril 之類開源韌體＝檔位可調，不代表驅動比較強</text>
+</svg>

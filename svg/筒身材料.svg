@@ -1,0 +1,25 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" color="#7d7d7d">
+  <rect x="40" y="36" width="600" height="252" fill="none" stroke="#87867F" stroke-width="0.5"/>
+  <rect x="40" y="36" width="600" height="40" fill="none" stroke="#87867F" stroke-width="0.5"/>
+  <line x1="160" y1="36" x2="160" y2="288" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="360" y1="36" x2="360" y2="288" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="40" y1="76" x2="640" y2="76" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="40" y1="128" x2="640" y2="128" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="40" y1="180" x2="640" y2="180" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="40" y1="232" x2="640" y2="232" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text x="100" y="62" font-size="14" text-anchor="middle" fill="currentColor">材料</text>
+  <text x="260" y="62" font-size="14" text-anchor="middle" fill="currentColor">優點</text>
+  <text x="500" y="62" font-size="14" text-anchor="middle" fill="currentColor">代價</text>
+  <text x="100" y="108" font-size="14" text-anchor="middle" fill="currentColor">鋁合金</text>
+  <text x="170" y="108" font-size="14" fill="currentColor">輕、散熱夠、最主流</text>
+  <text x="375" y="108" font-size="14" fill="currentColor">看陽極處理，不是看 slogans</text>
+  <text x="100" y="160" font-size="14" text-anchor="middle" fill="#B45309">鈦</text>
+  <text x="170" y="160" font-size="14" fill="currentColor">堅、耐腐、手感特別</text>
+  <text x="375" y="160" font-size="14" fill="#B45309">散熱差、貴，不為了炫就別追</text>
+  <text x="100" y="212" font-size="14" text-anchor="middle" fill="#D14520">銅</text>
+  <text x="170" y="212" font-size="14" fill="currentColor">散熱最好、會養色</text>
+  <text x="375" y="212" font-size="14" fill="currentColor">重、氧化、口袋不討喜</text>
+  <text x="100" y="264" font-size="14" text-anchor="middle" fill="currentColor">不鏽鋼</text>
+  <text x="170" y="264" font-size="14" fill="currentColor">耐撞、質感硬</text>
+  <text x="375" y="264" font-size="14" fill="currentColor">重、散熱普通</text>
+</svg>

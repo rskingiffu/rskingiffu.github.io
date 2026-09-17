@@ -1,0 +1,15 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" color="#7d7d7d">
+  <rect x="48" y="36" width="260" height="200" rx="12" fill="none" stroke="#87867F"/>
+  <rect x="118" y="70" width="120" height="44" rx="8" fill="#F2A623" stroke="#B45309"/>
+  <rect x="132" y="118" width="92" height="88" rx="10" fill="#C9C4B8" stroke="#87867F"/>
+  <text x="178" y="96" font-size="13" text-anchor="middle" fill="#B45309">燈頭熱源</text>
+  <text x="178" y="166" font-size="13" text-anchor="middle" fill="currentColor">熱要沿筒身走</text>
+  <text x="178" y="254" font-size="13" text-anchor="middle" fill="currentColor">筒徑越大越好散</text>
+
+  <rect x="372" y="36" width="260" height="200" rx="12" fill="none" stroke="#87867F"/>
+  <circle cx="502" cy="118" r="48" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <circle cx="502" cy="118" r="28" fill="none" stroke="#60A5FA" stroke-width="2"/>
+  <text x="502" y="124" font-size="16" text-anchor="middle" fill="#2563EB">IPX8</text>
+  <text x="502" y="200" font-size="13" text-anchor="middle" fill="currentColor">數字是實驗室，O-ring</text>
+  <text x="502" y="220" font-size="13" text-anchor="middle" fill="currentColor">沒脂、螺牙有沙＝進水</text>
+</svg>

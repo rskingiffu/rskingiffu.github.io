@@ -1,0 +1,20 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" color="#7d7d7d">
+  <text x="170" y="28" font-size="14" text-anchor="middle" fill="currentColor">尾按</text>
+  <text x="510" y="28" font-size="14" text-anchor="middle" fill="currentColor">側按</text>
+
+  <rect x="70" y="80" width="200" height="44" rx="8" fill="#C9C4B8" stroke="#87867F"/>
+  <rect x="40" y="74" width="36" height="56" rx="8" fill="#D14520" stroke="#8A2B12"/>
+  <circle cx="58" cy="102" r="9" fill="#FFF6E0"/>
+  <rect x="268" y="70" width="28" height="64" rx="6" fill="#B8A070" stroke="#8A6A30"/>
+  <text x="170" y="160" font-size="13" text-anchor="middle" fill="currentColor">戰術／單手點亮</text>
+  <text x="170" y="182" font-size="13" text-anchor="middle" fill="currentColor">握持時拇指在尾蓋</text>
+
+  <rect x="410" y="80" width="200" height="44" rx="8" fill="#C9C4B8" stroke="#87867F"/>
+  <rect x="608" y="70" width="28" height="64" rx="6" fill="#B8A070" stroke="#8A6A30"/>
+  <rect x="478" y="68" width="28" height="14" rx="5" fill="#D14520" stroke="#8A2B12"/>
+  <text x="510" y="160" font-size="13" text-anchor="middle" fill="currentColor">EDC／檔位好切</text>
+  <text x="510" y="182" font-size="13" text-anchor="middle" fill="currentColor">握持時拇指在筒側</text>
+
+  <text x="340" y="230" font-size="14" text-anchor="middle" fill="#B45309">旋轉頭／尾蓋旋轉＝機械斷電，鎖電最乾脆</text>
+  <text x="340" y="258" font-size="13" text-anchor="middle" fill="currentColor">電子開關要靠韌體鎖電，口袋誤觸仍可能發生</text>
+</svg>

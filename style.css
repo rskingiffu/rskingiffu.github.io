@@ -283,6 +283,48 @@ html.contrast {
     transform: scale(0.98);
 }
 
+.trigger-item.topic-body {
+    display: none;
+}
+
+html.body-mode .trigger-item.topic-optics {
+    display: none;
+}
+
+html.body-mode .trigger-item.topic-body {
+    display: block;
+}
+
+.desc-body,
+.aside-caption-body,
+.fig-body {
+    display: none;
+}
+
+html.body-mode .desc-optics,
+html.body-mode .aside-caption-optics,
+html.body-mode .fig-optics {
+    display: none;
+}
+
+html.body-mode .desc-body,
+html.body-mode .aside-caption-body {
+    display: block;
+}
+
+html.body-mode .fig-body {
+    display: block;
+}
+
+.topic-switch {
+    margin-top: 0.55rem;
+}
+
+.topic-switch .toggle-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* ==========================================================================
  *   6. 原有元件樣式（保留相容）
  *   ========================================================================== */

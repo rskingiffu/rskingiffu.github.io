@@ -20,7 +20,8 @@
       <!-- 標題區（可選） -->
       <div class="container" style="margin-bottom: 1.5rem; text-align: left;">國王說不定喜歡細菌的
         <div class="rbw" style="font-size: 1.8rem;margin-bottom: 1.2rem;font-weight: 800;">手電筒與週邊說明</div>
-        <p class="description">點擊下方項目即可看內容。</p>
+        <p class="description desc-optics">點擊下方項目即可看內容。目前章節：<strong>燈頭／光學</strong>。</p>
+        <p class="description desc-body">點擊下方項目即可看內容。目前章節：<strong>筒身</strong>。</p>
 
         <!-- 模式切換 -->
         <div class="control-group">
@@ -33,6 +34,12 @@
             <label for="contrast"></label>
           </div>
         </div>
+        <div class="topic-switch">
+          <div class="toggle-item">
+            <input type="checkbox" id="bodymode" />
+            <label for="bodymode"></label>
+          </div>
+        </div>
       </div>
 
       <!-- 觸發列表 -->
@@ -43,65 +50,115 @@
           關於這個頁面
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-b"
                 title="手電筒入門指南-品牌參考">
           🔦手電筒入門指南-品牌參考
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-c"
                 title="手電筒入門指南-光斑特性(非常重要)">
           🔦手電筒入門指南-光斑特性(非常重要)
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-d"
                 title="手電筒入門指南-各種透鏡/光杯導致光束呈現變化(TIR/反光杯)">
           🔎手電筒入門指南-各種透鏡/光杯導致光束呈現變化(TIR/反光杯)
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-e"
                 title="手電筒入門指南-品牌筒的快速實戰(cd/lm)">
           🔦手電筒入門指南-品牌筒的快速實戰(cd/lm)
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-f"
                 title="手電筒避坑指南-魚眼變焦的問題與迷思">
           💣手電筒避坑指南-魚眼變焦的問題與迷思
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-fa"
                 title="手電筒避坑指南-越亮...可以致盲？">
           💣手電筒避坑指南-越亮...可以致盲？
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-g"
                 title="手電筒進階指南-規格講解(cd、射程、lm、輝度與矽膠果凍)">
           💡手電筒進階指南-規格講解(cd、射程、lm、輝度與矽膠果凍)
         </button>
 
-         <button type="button" class="trigger-item"
+         <button type="button" class="trigger-item topic-optics"
                 id="open-detail-h"
                 title="手電筒進階指南-LED種類參考(SMD、DIP、COB、CSP)">
           💡手電筒進階指南-LED種類參考(SMD、DIP、COB、CSP)
         </button>
 
-        <button type="button" class="trigger-item"
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-i"
                 title="手電筒進階指南-高顯色、RGB、橙光、UV等特殊光色參考">
           💡手電筒進階指南-高顯色、RGB、橙光、UV等特殊光色參考
         </button>
 
-        <button type="button" class="trigger-item"
+
+        <button type="button" class="trigger-item topic-optics"
                 id="open-detail-j"
                 title="手電筒經驗談-多燈珠、高顯色、透鏡挑選">
           🔦手電筒經驗談-多燈珠、高顯色、光杯透鏡挑選
         </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-b"
+                title="筒身入門指南-筒身在手電筒裡負責什麼">
+          🔧筒身入門指南-筒身在手電筒裡負責什麼
+        </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-c"
+                title="筒身入門指南-電池與筒徑（14500／18650／21700）">
+          🔋筒身入門指南-電池與筒徑（14500／18650／21700）
+        </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-d"
+                title="筒身入門指南-開關位置（尾按／側按／旋轉）">
+          🔘筒身入門指南-開關位置（尾按／側按／旋轉）
+        </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-e"
+                title="筒身避坑指南-電池混用、反接、把鋰電當鹼性">
+          💣筒身避坑指南-電池混用、反接、把鋰電當鹼性
+        </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-f"
+                title="筒身避坑指南-螺牙、O-ring 與「HA III」亂標">
+          💣筒身避坑指南-螺牙、O-ring 與「HA III」亂標
+        </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-g"
+                title="筒身進階指南-材料（鋁、鈦、銅、不鏽鋼）">
+          💡筒身進階指南-材料（鋁、鈦、銅、不鏽鋼）
+        </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-h"
+                title="筒身進階指南-驅動電路與溫控">
+          💡筒身進階指南-驅動電路與溫控
+        </button>
+
+        <button type="button" class="trigger-item topic-body"
+                id="open-detail-body-i"
+                title="筒身進階指南-散熱、防水、夾具與磁吸尾蓋">
+          💡筒身進階指南-散熱、防水、夾具與磁吸尾蓋
+        </button>
+
       </div>
     </div>
 
@@ -620,25 +677,173 @@ B 燈：3000 lm、60,000 cd
         <h3>A4：以TIR透鏡來說，推薦cd/lm=4左右，這能在近距離為主戶外為輔的情境下使用，使用範圍上也是我認為目前最好的，另注意TIR在不同光學間cd/lm的適當值會跟著改變。而以反光杯來說基本上不用非常在意這類，光學體積、lm跟cd抓一下問題通常不會太大。</h3>
         </div>
 
+<!--筒身 入門 角色 -->
+        <div id="detail-body-b" class="detail-content">
+          <p>光學決定光長什麼樣子；<strong>筒身決定你能不能穩穩用、用多久、會不會燙手或進水。</strong></p>
+          <p>一支手電筒的筒身，實際上同時在做三件事：</p>
+          <ol>
+            <li><strong>握持與操作：</strong>長度、粗細、滾花、夾具位置，決定你單手能不能點亮、會不會從口袋滑出來。</li>
+            <li><strong>電池艙：</strong>能塞什麼電、正負極怎麼接、有沒有彈簧減震，直接決定續航和會不會接觸不良。</li>
+            <li><strong>把熱帶走：</strong>LED 的廢熱不是停在燈頭就好，要沿金屬筒身散出去。筒太細、材料散熱差，高檔位只能維持幾秒。</li>
+          </ol>
+          <p style="color: #db5000;">所以前面光學篇再強，電池不對、開關難按、熱散不掉，用起來還是一支廢筒。</p>
+          <p><strong>實用建議：</strong></p>
+          <ul>
+            <li>先確定用途（鑰匙／口袋／腰掛／車備），再決定筒徑，不要先被鈦合金外觀吸走。</li>
+            <li>EDC 優先：單手能開、有鎖電、重量你走得動。</li>
+            <li>遠射或高流明：筒徑與質量通常要上來，這不是「越輕越好」。</li>
+          </ul>
+        </div>
+
+<!--筒身 入門 電池 -->
+        <div id="detail-body-c" class="detail-content">
+          <p>筒徑幾乎是被電池決定的。電選錯，不是亮度差一點，是<strong>驅動燒掉或根本轉不動高檔位</strong>。</p>
+          <object data="./svg/電池尺寸.svg" type="image/svg+xml" width="680" height="400"></object>
+          <p><strong>怎麼挑：</strong></p>
+          <ul>
+            <li><strong>14500：</strong>外型接近 AA，但電壓是 3.7V。很多「AA 筒」若沒寫相容鋰電，塞 14500 會過壓。</li>
+            <li><strong>18650：</strong>目前最均衡。容量、放電、配件都最齊。</li>
+            <li><strong>21700：</strong>要電流與續航時很香，筒會明顯更粗，口袋友善度下降。</li>
+            <li><strong>16340／CR123A：</strong>短筒好看，續航短，當把玩或備用可以，當主力容易失望。</li>
+            <li><strong>內置不可換電：</strong>方便，但電芯老化只能整支報銷或等原廠。</li>
+          </ul>
+          <p style="color: #d94848;"><strong>電壓常識：</strong>鹼性 AA 是 1.5V，鋰電 14500 是 3.7V，不是「一樣長就能互塞」。</p>
+          <p class="rbw">電池比筒便宜，但選錯電比選錯光學更快讓筒報銷。</p>
+        </div>
+
+<!--筒身 入門 開關 -->
+        <div id="detail-body-d" class="detail-content">
+          <p>開關位置決定你「怎麼拿、怎麼開」，這比外觀裝飾重要得多。</p>
+          <object data="./svg/開關位置.svg" type="image/svg+xml" width="680" height="400"></object>
+          <p><strong>尾按：</strong></p>
+          <ul>
+            <li>戰術、瞬間點亮（momentary）直覺。</li>
+            <li>握持時拇指在尾蓋，適合配合槍燈或後握。</li>
+            <li>口袋深的話，尾按可能不好摸到。</li>
+          </ul>
+          <p><strong>側按：</strong></p>
+          <ul>
+            <li>EDC、檔位切換通常比較舒服。</li>
+            <li>單手握中段就能操作，散步、修東西友善。</li>
+            <li>沒鎖電時，口袋誤觸機率比尾按高。</li>
+          </ul>
+          <p><strong>旋轉頭／尾蓋旋轉：</strong>屬於機械斷電，鎖電最乾脆，也最不怕韌體亂套。代價是操作慢一點，濕手或手套不一定好轉。</p>
+          <p style="color: #db5000;">電子開關的「鎖電」是軟體行為，不是物理斷路。要徹底斷電，還是看機械結構。</p>
+        </div>
+
+<!--筒身 避坑 電池 -->
+        <div id="detail-body-e" class="detail-content">
+          <p>這篇沒有華麗光學圖，但比光斑更容易讓筒直接死掉。</p>
+          <ol>
+            <li style="color: #d94848;"><strong>14500 當 AA 塞：</strong>長度差不多，電壓差一倍以上。沒標示相容鋰電就不要試。</li>
+            <li><strong>正負極裝反：</strong>有的筒有反接保護，有的沒有。沒有的話驅動可能直接短。</li>
+            <li><strong>混用新舊電、不同內阻：</strong>多電串聯／並聯時，弱的那顆會被拖垮，發熱與電壓不穩都來。</li>
+            <li><strong>無保護板電芯塞進沒有低電壓保護的直驅筒：</strong>過放會傷電芯，嚴重會鼓脹。</li>
+            <li><strong>用充電器亂充、用行動電源充「看起來像 18650 的不明電」：</strong>品控比筒還重要，白牌電芯比白牌筒更危險。</li>
+          </ol>
+          <p><strong>實用底線：</strong></p>
+          <ul>
+            <li>一筒一電、同品牌同批次比較安心。</li>
+            <li>扁平頂／鈕扣頂要看筒的接觸結構，接不到就會閃爍或點不亮，不是燈壞了。</li>
+            <li>電芯外皮破掉不要繼續用。</li>
+          </ul>
+          <p class="rbw">光學用不好只是光難看；電池用不好是安全問題。</p>
+        </div>
+
+<!--筒身 避坑 螺牙 -->
+        <div id="detail-body-f" class="detail-content">
+          <p>便宜筒最常死在「機械活」而不是 LED。</p>
+          <ul>
+            <li><strong>螺牙毛刺、對不準：</strong>轉到底會咬死，強轉就滑牙。這修不好。</li>
+            <li><strong>O-ring 沒油脂或斷裂：</strong>IPX8 印在筒上沒有意義。實驗室數據 ≠ 你口袋裡的沙子與汗。</li>
+            <li><strong>接觸簧片太弱：</strong>走路震動就閃爍，這是接觸問題，不是LED問題。</li>
+            <li style="color: #db5000;"><strong>「HA III 軍規陽極」亂標：</strong>真的 Type III 硬質陽極比較耐磨、比較耐刮。很多只是普通染色陽極，掉漆很快。看到口號請當行銷，不要當規格。</li>
+            <li><strong>尾蓋導電只靠一圈薄牙：</strong>陽極若沒車導電位，會出現「轉緊反而沒電、轉鬆才亮」。</li>
+          </ul>
+          <p><strong>到手先做：</strong></p>
+          <ol>
+            <li>清潔螺牙，薄薄上絕緣脂或專用潤滑（不要亂塗導電脂到絕緣面）。</li>
+            <li>檢查 O-ring 有沒有裂、有沒有裝歪。</li>
+            <li>看尾蓋、燈頭的導電環有沒有被漆蓋住。</li>
+          </ol>
+        </div>
+
+<!--筒身 進階 材料 -->
+        <div id="detail-body-g" class="detail-content">
+          <p>材料會改變重量、散熱、耐刮與價錢。多數人買鋁就對了。</p>
+          <object data="./svg/筒身材料.svg" type="image/svg+xml" width="680" height="400"></object>
+          <ul>
+            <li><strong>鋁合金（6061／7075）：</strong>日常最佳解。7075 較硬較貴，不是自動比較亮。</li>
+            <li><strong>鈦：</strong>手感與耐腐真的好，但熱導比鋁差一截。高流明鈦筒，熱更常留在燈頭。不要為了「潮」多付三倍，除非你確定要它的質感。</li>
+            <li><strong>銅：</strong>散熱好、會養出氧化色，重。當把玩或需要把熱快速拉開可以，當口袋 EDC 很多人會後悔。</li>
+            <li><strong>不鏽鋼：</strong>耐撞、冷，散熱普通，一樣重。</li>
+          </ul>
+          <p style="color: #db5000;">同一顆 LED、同一套光學，換成鈦／銅，光斑不會變好，只會變熱、變重、變貴。</p>
+        </div>
+
+<!--筒身 進階 驅動 -->
+        <div id="detail-body-h" class="detail-content">
+          <p>驅動在筒身裡，使用者看不到，但決定「標稱 3000lm 你能用幾秒」。</p>
+          <object data="./svg/驅動電路.svg" type="image/svg+xml" width="680" height="400"></object>
+          <p><strong>三種常見：</strong></p>
+          <ol>
+            <li><strong>線性：</strong>電路單純、檔位穩，多餘電壓變成熱。低檔位很舒服，高檔位筒身容易溫。</li>
+            <li><strong>Buck／Boost：</strong>切換式，效率較好，電池從滿到淺都能維持亮度。這是「恒亮」比較常發生的地方。</li>
+            <li><strong>FET 直驅：</strong>高檔位幾乎把電池電壓丟給 LED，瞬間很亮，亮度隨電壓掉，熱也兇。</li>
+          </ol>
+          <p><strong>溫控：</strong>高檔位自動往下降，是在保 LED 與你的手，不是偷工。沒溫控的直驅才要小心。</p>
+          <p>Andúril 這類開源韌體讓你可調檔位曲線、鎖電、信標，<strong>它不是驅動本身</strong>。韌體再花，線性驅動該熱還是熱。</p>
+          <p class="rbw">看規格請看「持續亮度」與溫控策略，不要只看第一秒的 turbo。</p>
+        </div>
+
+<!--筒身 進階 散熱防水配件 -->
+        <div id="detail-body-i" class="detail-content">
+          <p>散熱與防水都是筒身的活，配件則決定你每天拿不拿得出來。</p>
+          <object data="./svg/散熱防水.svg" type="image/svg+xml" width="680" height="400"></object>
+          <p><strong>散熱：</strong></p>
+          <ul>
+            <li>熱從 LED → MCPCB → 燈頭 → 筒身 → 空氣／你的手。</li>
+            <li>筒徑大、金屬連續、手握面積大，高檔位才站得住。</li>
+            <li>細口袋筒打 turbo 幾秒就降，這是物理，不是騙。</li>
+          </ul>
+          <p><strong>防水：</strong></p>
+          <ul>
+            <li>IPX8 是靜水壓測試，不是「可以拿去海邊滾沙再沖」。</li>
+            <li>O-ring 要有適當潤滑；螺牙進沙先清再轉，否則密封面會刮傷。</li>
+            <li>尾蓋、側按是進水熱點，按鍵膜老化就要換。</li>
+          </ul>
+          <p><strong>夾具與磁吸尾蓋：</strong></p>
+          <ul>
+            <li>雙向夾：可頭朝上或朝下插口袋，EDC 很實用。</li>
+            <li>磁吸尾蓋：貼車廂、貼鐵架方便，但磁力會吸到碎屑，也可能干擾指南針；尾蓋變厚，握持手感會變。</li>
+            <li>沒夾具的光筒，很多最後會躺在抽屜。</li>
+          </ul>
+        </div>
+
       </div>
     </div>
     <!-- 右側圖 -->
     <div class="aside-preview">
-      <div class="fig">
+      <div class="fig fig-optics">
         <object data="./svg/main_A.svg" type="image/svg+xml" width="680" height="400">
         </object>
       </div>
-      <p class="aside-caption">目前的講解方向</p>
+      <div class="fig fig-body">
+        <object data="./svg/main_B.svg" type="image/svg+xml" width="680" height="400">
+        </object>
+      </div>
+      <p class="aside-caption aside-caption-optics">目前的講解方向：燈頭／光學</p>
+      <p class="aside-caption aside-caption-body">目前的講解方向：筒身</p>
     </div>
   </div>
 
 
   <div class="site-footer">
-  <p>其實後面很想聊筒身(Anduril與驅動、電池、尾按等)，但最近有工作拉，暫時沒有頭緒怎麼擺，希望能更新拉。</p>
+  <p>筒身資訊先用AI扛一下(其實我也不知道它會生成這個)，找時間大改。</p>
   <p>
     本頁面與檔案（style.css、main.js 等）均為AI再生成製作，以<a href="https://unlicense.org/" title="Unlicense Yourself Set Your Code Free" rel="noopener noreferrer">Unlicense</a>條款釋出。
   </p>
-  <p>可自由使用、修改、再散佈，內容注意以自行撰寫為優。<a href="https://validator.w3.org/check?uri=https%3A%2F%2Frskingiffu.github.io%2F" rel="noopener noreferrer"><img
+  <p>可自由使用、修改、再散佈，亦可作為 Footer 使用，內容注意以自行撰寫為優。<a href="https://validator.w3.org/check?uri=https%3A%2F%2Frskingiffu.github.io%2F" rel="noopener noreferrer"><img
       src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="18" width="50" /></a></p>
   </div>
   <script type="text/javascript" src="main.js"></script>
