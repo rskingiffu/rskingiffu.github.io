@@ -296,7 +296,7 @@
         setupToggle({
             inputId: "bodymode",
             storageKey: "body-mode",
-            labels: ["🔦燈頭／光學", "🔩筒身"],
+            labels: ["🔦燈頭／光學-> 🔩筒身", "🔩筒身-> 🔦燈頭／光學"],
             className: "body-mode",
             onChange: () => {
                 closePanel();
